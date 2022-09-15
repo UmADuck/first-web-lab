@@ -1,0 +1,60 @@
+.main-body {
+    width: 840px;
+    margin-top: 120px;
+}
+
+.main-body__first-container {
+    display: inline-block;
+}
+
+.same__container {
+    width: 380px;
+    height: 70px;
+    color: #222;
+    background-color: #fff;
+    box-shadow: 0px 14px 55px #F2F5FA;
+    border-radius: 16.6333px;
+
+}
+
+.girl__image {
+    padding: 16px 0px 16px 16px;
+    float: left;
+}
+
+.second-container {
+    margin: 16px 0;
+}
+
+.three__paragraphs {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 16px 21px 0px 65px;
+}
+
+.third__paragraph {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 0px 0px 16px 16px;
+    margin: 0;
+    display: inline-block;
+}
+
+.strong-settings {
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.button-settings {
+    color: #26C296;
+    border: 0;
+    background-color: #fff;
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 17px;
+}

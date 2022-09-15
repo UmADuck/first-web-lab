@@ -1,0 +1,47 @@
+body {
+    font-family: gilroy;
+    color: #73738D;
+    margin: 0;
+    background-color: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    color: #222;
+    margin: 0;
+    font-weight: 700;
+}
+
+p {
+    margin: 0;
+    font-family: Gilroy;
+}
+
+/*Global classes*/
+
+.container {
+    margin: 0 auto;
+    max-width: 840px;
+}
+
+.block-container {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.left-container {
+    margin-left: 60px;
+}
+
+.right-container {
+    margin-left: 45px;
+}

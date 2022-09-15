@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    height: 32px;
+    width: 800px;
+    left: 100px;
+    top: 24px;
+    border-radius: 34px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.header__title {
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #222222;
+}
+
+.header__nav-Login {
+    margin-right: 200px;
+}
+
+.header__nav ul {
+    display: flex;
+    color: #73738d;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+}
+
+.header__try-it-button {
+    color: #1943ef;
+    background-color: white;
+    height: 32px;
+    width: 120px;
+    border-width: 1px;
+    border-color: #1943ef;
+    margin-left: 65px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
