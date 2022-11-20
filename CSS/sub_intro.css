@@ -1,0 +1,101 @@
+.sub_intro {
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.image_parent {
+    position: relative;
+}   
+
+.circle {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.symbol {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+.sub_intro__container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.sub_intro__first_container {
+    max-width: 350px;
+    width: 100%;
+}
+
+.tick_container_first {
+    padding-left: 25px;
+}
+
+.tick_container_second {
+padding-left: 56px;
+}
+
+.sub_intro__second_container {
+    margin-left: 50px;
+    color: #222;
+    background-color: #fff;
+    border-radius: 20.7917px;
+    padding-left: 20px;
+    font-size: 11px;
+    max-width: 350px;
+    width: 100%;
+    margin-left: 100px;
+}
+
+.photo_and_text_container {
+    padding-top: 30px;
+}
+
+.girl_image {
+    float: left;
+    margin-right: 10px;
+}
+
+.sub_intro__wrapping_div {
+    margin-top: 30px;
+}
+
+.sub_div {
+    display: flex;
+    margin-top: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .sub_intro {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .image_parent {
+    position: relative;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%; 
+    }
+
+    .circle {
+        position: absolute;
+    }
+
+    .sub_intro__second_container  {
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+
+    .sub_intro__wrapping_div {
+        margin-bottom: 15px;
+    }
+
+    .tick_container {
+        margin-right: auto;
+    }
+}

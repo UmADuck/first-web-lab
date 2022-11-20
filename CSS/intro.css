@@ -1,0 +1,66 @@
+.intro {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.intro__photo_with_text {
+    display: flex;
+    background-color: #fff;
+    border-radius: 16px;
+    max-width: 380px;
+    padding: 16px 0px 15px 15px;
+    margin-bottom: 15px;
+}
+
+.paragraph-near-images {
+    padding-left: 10px;
+    font-size: 11px;
+    color: rgba(34, 34, 34, 0.8);
+    display: inline-block;
+}
+
+.intro__paragraph_button {
+    background-color: #fff;
+    border: 0;
+    color: #26C296;
+    font-size: 11px;
+}
+
+.sub_title {
+    margin-bottom: 16px;
+}
+
+.tick_container {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+}
+
+.inside_tick {
+    padding-top: 16px;
+    display: flex;
+}
+
+.text-near-tick {
+    display: inline-block;
+}
+
+.inside_tick_first {
+padding-left: 60px;
+}
+
+.inside_tick_second {
+padding-left: 27px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro {
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    }
+}
+

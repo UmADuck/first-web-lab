@@ -13,169 +13,192 @@
     <section class="hero">
         <div class="container">
             <header class="header">
+                <div class="header__menu" onclick="toggleMenu()">
+                    <img src="images/menu-icon.svg" alt="Menu icon">
+                </div>
                 <div class="header__title">Relationz</div>
                 <nav class="header__nav">
                     <ul>
-                        <li class="header__nav-Login"><a href="">Login</a></li>
-                        <li class="header__nav-item"><a href="">Services</a></li>
-                        <li class="header__nav-item"><a href="">Enterprise</a></li>
-                        <li class="header__nav-item"><a href="">Pricing</a></li>
+                        <li class="header__nav-Login">
+                            <a class="heaader__nav-link" href="">Login</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="heaader__nav-link" href="">Services</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="heaader__nav-link" href="">Enterprise</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a class="heaader__nav-link" href="">Pricing</a>
+                        </li>
                     </ul>
                 </nav>
-                <button class="header__try-it-button button" href="">Try it for free</button>
+                <button class="header__try-it button">Try it for free</button>
             </header>
         </div>
-        <div class="container hero">
+        <div class="container hero__container">
             <div class="hero__inner">
-                <img class="hero__phone-image" src="images/phone.svg" alt="Phone image">
-                <h1 class="hero__title">Take your relationships to the next level</h1>
+                <h1 class="title">Take your relationships to the next level</h1>
                 <p class="hero__paragraph">
                     The multichannel sales engagement platform which automates personal
                     email outreach, calls, and tasks, while Sales can focus on what
                     really matters - closing deals.
                 </p>
+                <div class="hero__bottom">
+                    <input class="hero__input button" type="text" placeholder="Email id">
+                    <button class="hero__button button">Try it for free</button>
+                </div>
+            </div>
+            <div class="hero__illustration">
+                <img src="images/phone.svg" alt="Phone image">
+            </div>
+        </div>
+    </section>
+    <section class="intro">
+        <div class="container intro__container">
+            <div class="intro__photo_with_text">
+                <img src="Images/photo1.svg" alt="girl image">
+                <p class="paragraph-near-images">You have a meeting with <strong> Surbhi</strong>
+                    to help her with her <br> portfolio.
+                    She got a new pet (Dog named Tiger).
+                </p>
+            </div>
+            <div class="intro__photo_with_text">
+                <img src="Images/photo2.svg" alt="girl image">
+                <p class="paragraph-near-images"><strong class="strong-settings">Ripal</strong>
+                    has recently been to Thailand and she wants
+                    to <br> discuss about new Job opportunity.</p>
+            </div>
+
+            <div class="intro__photo_with_text">
+                <img src="Images/photo3.svg" alt="girl image">
                 <div>
-                    <form class="hero__form">
-                        <input class="email_field button" type="text" placeholder="Email id" required>
-                        <div class="top-container">
-                            <input class="hero__button button" type="button" value="Try it for free">
-                        </div>
-                    </form>
+                    <p class="paragraph-near-images"><b>Prashasti</b> hasn’t responded
+                        to your Email from 22 Jan, 2020</p>
+                    <p class="paragraph-near-images"><strong>want to check up on her? </strong></p>
+
+                    <button class="intro__paragraph_button button"> Follow up</button>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="main-body">
-                <div class="main-body__first-container left-container">
-                    <div class="same__container">
-                        <img class="girl__image" src="Images/photo1.svg" alt="girl image">
-                        <p class="three__paragraphs">You have a meeting with
-                            <strong class="strong-settings">Surbhi</strong>
-                            to help her with her <br> portfolio.
-                            She got a new pet (Dog named Tiger).
-                        </p>
-                    </div>
-                    <div class="same__container second-container right-container">
-                        <img class="girl__image" src="Images/photo2.svg" alt="girl image">
-                        <p class="three__paragraphs"><strong class="strong-settings">Ripal</strong>
-                            has recently been to Thailand and she wants
-                            to <br> discuss about new Job opportunity.</p>
-                    </div>
-                    <div class="same__container">
-                        <img class="girl__image" src="Images/photo3.svg" alt="girl image">
-                        <p class="three__paragraphs">Prashasti hasn’t responded
-                            to your Email from 22 Jan, 2020</p>
-                        <p class="third__paragraph">Want to check up on her? </p>
-                        <button class="button-settings"> Follow up</button>
+            <h2 class="sub_title">Get reminders to follow up</h2>
+            <p class="paragraph ">We remind you of everything important and track<br>
+                everything that’s important to your important ones<br>
+                so you always stay connected. We only tell you the<br>
+                details when you need them the most.</p>
+            <div class="tick_container">
+                <div class="inside_tick">
+                    <img src="images/tick.svg" alt="">
+                    <p class="text-near-tick">Birthdays</p>
+
+                    <div class="inside_tick_first">
+                        <img src="images/tick.svg" alt="">
+                        <p class="text-near-tick">Business Meetings</p>
                     </div>
                 </div>
-                <div class="main-body__second-container">
-                    <h2 class="second-container__header">Get reminders to follow up</h2>
-                    <p class="second-container__paragraph">We remind you of everything important and track<br>
-                        everything that’s important to your important ones<br>
-                        so you always stay connected. We only tell you the<br>
-                        details when you need them the most.</p>
-                    <div class="second-container__tick-containers">
-                        <div class="tick-containers__first-container block-container">
-                            <img src="images/tick.svg" alt="">
-                            <p class="text-near-tick">Birthdays</p>
-                        </div>
-                        <div class="tick-containers__second-container block-container">
-                            <img src="images/tick.svg" alt="">
-                            <p class="text-near-tick">Business Meetings</p>
-                        </div>
-                    </div><br>
-                    <div class="second-container__tick-containers">
-                        <div class="tick-containers__third-container block-container">
-                            <img src="images/tick.svg" alt="">
-                            <p class="text-near-tick">Friends & Family</p>
-                        </div>
-                        <div class="tick-containers__fourth-container block-container">
-                            <img src="images/tick.svg" alt="">
-                            <p class="text-near-tick">Surroundings</p>
-                        </div>
+                <div class="inside_tick">
+                    <img src="images/tick.svg" alt="">
+                    <p class="text-near-tick">Friends & Family</p>
+
+                    <div class="inside_tick_second">
+                        <img src="images/tick.svg" alt="">
+                        <p class="text-near-tick">Surroundings</p>
                     </div>
                 </div>
-                <div class="container image-parent left-container" style="margin-top: 90px;">
-                    <img class="circle" src="Images/circle.svg" alt="image" />
-                    <img class="symbol" src="Images/recycle_symbol.svg" alt="" />
-                </div>
-                <div class="container block-container">
-                    <div class="inner-container left-container">
-                        <h2 class="second-container__header">Our sync remembers everything</h2>
-                        <p class="second-container__paragraph">We build a huge databasse of all your contacts<br>
-                            with all the possible details they share with you<br>
-                            and you can access it anywhere, anytime. It’s works<br>
-                            so well that you will love it like we do.</p> <br>
-                            <div class="second-container__tick-containers block-container">
-                                <img src="images/tick.svg" alt="">
-                                <p class="text-near-tick" style="margin-right: 26px;">Available on devices</p>
-                                <img src="images/tick.svg" alt="">
-                                <p class="text-near-tick">Can be accesed via phonebook</p>
-                                <br>
-                                <img src="images/tick.svg" alt="">
-                                <p class="text-near-tick" style="margin-right: 57px;">Seatch details</p>
-                                <img src="images/tick.svg" alt="">
-                                <p class="text-near-tick">24X7 Support</p>
-                            </div>
-                    </div>
-                    <div  class="container inner-container second-inner-container right-container">
-                        <img class="separate_girl__image" src="Images/photo4.svg" alt="girl image">
-                        <p style="color: #222; margin-top: 25px;">
-                            <b style="font-size: 16px;">Archana Deshmukh</b><br>Product Design Consultant </p>
-                            <div class="sub-div">
-                                <img src="images/cake.svg" alt="">
-                                <p class="black-text-color">17 April, 1994</p> 
-                            </div>
-                            <div class="sub-div">
-                                <img src="images/bag.svg" alt="">
-                                <p class="black-text-color">Product Design Consultant</p> 
-                            </div>
-                            <div class="sub-div">
-                                <img src="images/another_tick.svg" alt="">
-                                <p class="black-text-color">Went to Amsterdam with parents to visit her brother.</p> 
-                            </div>
-                    </div>
-                </div>
-                <div class="image-parent" style="margin: 110px 0px 0px 480px">
-                    <img class="circle-for-plague" src="Images/circle.svg" alt="image" />
-                    <img class="plague-symbol" src="Images/plague_symbol.svg" alt="" />
-                </div>
-                <div class="container block-container">
-                <div  class="pre-last-container block-container left-container">
-                    <img src="images/three-dots.svg" alt="" style="
-                        float: right; padding:32px 17px 0px 0px">
-                    <div class="text-in-pre-last-container">
-                        <h3 style="font-size:16px;">Send content around anxiety</h3>
-                        <p style="color: #222; font-size: 11px; font-weight: 500; line-height: 13px;">3 people on the list</p>
-                        <p style="font-size: 10px; margin-top: 20px; line-height: 180%;">We all worry and get upset from time to time. It’s a normal part of<br>
-                            life, right? But what happens when that anxiety or anger takes over,<br>
-                            and you can’t calm down? Being able to calm yourself in the mome...</p>
-                    </div>
-                </div>
-                <div class="last-container right-container" style="margin-top: 30px;">
-                    <h2 class="second-container__header" style="line-height: 20px;">Stay connected in a few clicks</h2>
-                        <p class="second-container__paragraph">The multichannel sales engagement platform<br>
-                            which automates personal email outreach, calls,<br>
-                            and tasks, while Sales can focus on what really<br>
-                            matters - closing</p>
-                </div>
-            </div>
-            </div>
-            <div class="sub-footer container block-container">
-                <div class="sub-footer__content">
-                    <button class="sub-footer__button">Try it for free</button>
-                    <h2 style="line-height: 30px; ">Form better relationships with everyone</h2>
-                    <p><small>Start your free 14 days trial.</small></p>
-                    
-                </div>
-            </div>
-            <div class="footer">
-                <p><strong>Relationz</strong></p>
-                <p class="usual-footer-text">Copyright © 2010 - 2019 Relationz Ltd. All rights reserved.</p>
             </div>
         </div>
     </section>
-</body>
+    <section class="sub_intro">
+        <div class="container image_parent">
+            <img class="circle" src="Images/circle.svg" alt="image" />
+            <img class="symbol" src="Images/recycle_symbol.svg" alt="symbol" />
+        </div>
+        <div class="container sub_intro__container">
+            <div class="sub_intro__first_container">
+                <h2 class="sub-title" style="margin-bottom: 16px;">Our sync remembers everything</h2>
+                <p class="paragraph">
+                    We build a huge databasse of all your contacts<br>
+                    with all the possible details they share with you<br>
+                    and you can access it anywhere, anytime. It’s works<br>
+                    so well that you will love it like we do.</p> <br>
+                </p>
+                <div class="tick_container">
+                    <div class="inside_tick">
+                        <img src="images/tick.svg" alt="">
+                        <p class="text-near-tick">Available on devices</p>
 
-</html>
+                        <div class="tick_container_first">
+                            <img src="images/tick.svg" alt="">
+                            <p class="text-near-tick">Can be accesed via phonebook</p>
+                        </div>
+                    </div>
+                    <div class="inside_tick">
+                        <img src="images/tick.svg" alt="">
+                        <p class="text-near-tick">Search details</p>
+
+                        <div class="tick_container_second">
+                            <img src="images/tick.svg" alt="">
+                            <p class="text-near-tick">24X7 Support</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_intro__second_container">
+                <div class="photo_and_text_container">
+                    <img class="girl_image" src="Images/photo4.svg" alt="girl_image">
+                    <p class="">
+                    <h3 style="font-size:16px;">Archana Deshmukh</h3>
+                    Design Consultant </p>
+                </div>
+                <div class="sub_intro__wrapping_div">
+                    <div class="sub_div">
+                        <img src="images/cake.svg" alt="image">
+                        <p class="black-text-color">17 April, 1994</p>
+                    </div>
+                    <div class="sub_div">
+                        <img src="images/bag.svg" alt="image">
+                        <p class="black-text-color">Product Design Consultant</p>
+                    </div>
+                    <div class="sub_div">
+                        <img src="images/another_tick.svg" alt="image">
+                        <p class="black-text-color">Went to Amsterdam with parents to visit her brother.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last_main_part">
+        <div class="container last_main_part_container">
+            <div class="last_main_part__first_sub_container">
+                <h3 style="font-size:16px;">Send content around anxiety</h3>
+                <p style="color: #222; font-size: 11px; font-weight: 500; line-height: 13px;">3 people on the list</p>
+                <p style="font-size: 10px; margin-top: 20px; line-height: 180%;">We all worry and get upset from time to
+                    time. It’s a normal part of<br>
+                    life, right? But what happens when that anxiety or anger takes over,<br>
+                    and you can’t calm down? Being able to calm yourself in the mome...</p>
+            </div>
+            <div class="last_main_part__second_sub_container">
+                <div class="image_parent">
+                <img class="circle" src="Images/circle.svg" alt="circle" />
+                <img class="symbol" src="Images/plague_symbol.svg" alt="symbol" />
+                </div>
+                <h2 class="sub_title last_main_part__title" style="line-height: 20px;">Stay connected in a few clicks</h2>
+                <p class="paragraph">The multichannel sales engagement platform<br>
+                    which automates personal email outreach, calls,<br>
+                    and tasks, while Sales can focus on what really<br>
+                    matters - closing</p>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container sub_footer">
+            <h2 style="line-height: 30px; display: inline-block;">Form better relationships with everyone</h2>
+            <button class="sub_footer__button button">Try it for free</button> <br>
+            <p class="sub_footer__paragraph"><small>Start your free 14 days trial.</small></p>
+        </div>
+        <footer class="footer_footer">
+            <p class="footer_text"><strong>Relationz</strong></p>
+            <p class="usual_footer_text">Copyright © 2010 - 2019 Relationz Ltd. All rights reserved.</p>
+        </footer>
+    </section>

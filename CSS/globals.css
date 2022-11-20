@@ -1,8 +1,26 @@
+
+
+@media screen and (max-width: 450px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
 body {
     font-family: gilroy;
     color: #73738D;
     margin: 0;
     background-color: #E5E5E5;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+        flex-direction: column;
+        flex: 1;
+    }
 }
 
 a {
@@ -30,18 +48,34 @@ p {
 
 .container {
     margin: 0 auto;
-    max-width: 840px;
+    max-width: 800px;
 }
 
-.block-container {
-    display: inline-block;
-    overflow: hidden;
+.button {
+    border-radius: 34px;
 }
 
-.left-container {
-    margin-left: 60px;
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }    
 }
 
-.right-container {
-    margin-left: 45px;
+.button:hover {
+    animation-name: button_hover;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+.header__nav-item:hover {
+    animation-name: link_hover;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+.header__nav-Login:hover {
+    animation-name: login_hover;
+    animation-duration: 10s;
 }

@@ -1,14 +1,20 @@
 @import "./normalize.min.css";
 
+@import "./animations.css";
+
 @import "./globals.css";
 
 @import "./header.css";
 
 @import "./hero.css";
 
-@import "./first_part_of_second_block.css";
+@import "./intro.css";
 
-@import "./second_part_of_second_block.css";
+@import "./sub_intro.css";
+
+@import "./last_main_part.css";
 
 @import "./footer.css";
+
+
 

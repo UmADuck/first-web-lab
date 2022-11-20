@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../lab10/Lab11"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../../Sublime text 3/My first page"
+		},
+		{
+			"path": "../../../lab10/Lab11/Algo_labs"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Web labs"
+	}
+}

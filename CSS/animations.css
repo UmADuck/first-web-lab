@@ -1,0 +1,17 @@
+@keyframes button_hover {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+@keyframes link_hover {
+    0%   {background-color: blueviolet;}
+    50%  {background-color:aquamarine}
+    100% {background-color:blue}
+}
+
+@keyframes login_hover {
+    from {background-color: gray;}
+    to {background-color: yellow;}
+}
