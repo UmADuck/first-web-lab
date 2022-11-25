@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<header class="header">
+    <h4 class="title">MyBooks</h1>
+    <h4 class="title" onclick="toMainPage()">My book lib</h1>
+    <h4 class="book_lib" >Create book</h1>
+</header>
+    <div>
+        <input type="text" placeholder="Write a name" id="nameField">
+        <input type="number" placeholder="Write number of pages" id="numberOfPagesField">
+        <input type="text" placeholder="Write a price name" id="priceField">
+        <input type="text" placeholder="Write a image link" id="imgField">
+        <button onclick="createBook()">Create Book</button>
+
+    </div>
+    <script src="logic/create.js"></script>
+
+</body>

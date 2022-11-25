@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 onclick="toMainPage()">"YTour"</h1>
+    </header>
+    <main>
+        <input type="text" placeholder="Write a name" id="nameField">
+        <input type="text" placeholder="Write number of pages" id="numberOfPagesField">
+        <input type="number" min="1" placeholder="Write a price" id="priceField">
+        <input type="text" placeholder="Write image link" id="imgField">
+        <button onclick="updateBook()">Edit tour</button>
+    </main>
+    <script src="logic/edit.js"></script>
+</body>
+</html>
