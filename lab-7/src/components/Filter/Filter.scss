@@ -1,0 +1,28 @@
+form {
+    padding: 1vw 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-size: 1.2rem;
+
+    div {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+
+        select {
+            width: 30%;
+            padding: 1vh 0vw;
+            border-radius: 10px;
+            border: black solid 1.5px;
+        }
+    }
+
+    button {
+        width: 10%;
+        padding: 1vh 0vw;
+        border-radius: 10px;
+        border: black solid 1.5px;
+    }
+}

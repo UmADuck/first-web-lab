@@ -1,0 +1,29 @@
+.Main {
+    padding: 0vw 8vw 30vh 8vw;
+
+
+    .MainInformation {
+        padding: 5vh 0vh 15vh 0vh;
+        display: flex;
+        justify-content: space-between;
+
+
+        img {
+            width: 35%;
+            border-radius: 30px;
+        }
+
+        div {
+            width: 58%;
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .MainCard {
+        display: flex;
+        justify-content: space-between;
+    }
+}

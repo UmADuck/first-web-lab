@@ -1,0 +1,27 @@
+.articleCard {
+    padding: 5vh 8vw 7vh 8vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.SearchBox {
+    position: absolute;
+    margin: 0;
+    bottom: 91vh;
+    left: 70vw;
+    width: 20%;
+    height: 24px;
+    color: #000000;
+    font-family: 'Source Sans Pro';
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}

@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name": "Harry Potter",
+            "pages": 300,
+            "price": 160,
+            "img": "https://cdn.pixabay.com/photo/2018/01/04/19/43/paper-3061485__340.jpg"
+        },
+        {
+            "id": "2",
+            "name": "war and peace",
+            "pages": 2500,
+            "price": 400,
+            "img": "https://cdn.pixabay.com/photo/2018/01/04/19/43/paper-3061485__340.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Bible",
+            "pages": 1500,
+            "price": 1000,
+            "img": "https://cdn.pixabay.com/photo/2018/01/04/19/43/paper-3061485__340.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Persey Jackson",
+            "pages": 500,
+            "price": 1500,
+            "img": "https://cdn.pixabay.com/photo/2018/01/04/19/43/paper-3061485__340.jpg"
+        },
+        {
+            "id": "40",
+            "name": "Bible original",
+            "pages": 4000,
+            "price": 1500,
+            "img": "https://cdn.pixabay.com/photo/2018/01/04/19/43/paper-3061485__340.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Beginning after the end",
+            "pages": 1400,
+            "price": 800,
+            "img": "https://cdn.pixabay.com/photo/2018/01/04/19/43/paper-3061485__340.jpg"
+        }
+    ]
+}

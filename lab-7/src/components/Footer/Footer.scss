@@ -1,0 +1,47 @@
+.Footer {
+    padding: 0vh 8vw 5vh 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .FooterImg {
+            display: flex;
+            justify-content: space-between;
+            width: 15%;
+
+            img {
+                width: 30%;
+            }
+        }   
+    }
+
+    .FooterText {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 25%;
+
+        h3 {
+            width: 100%;
+        }
+    }
+
+    hr {
+        width: calc(100vw - 2*8vw);
+        height: 1px;
+        border-radius: 20px;
+        background-color: black;
+    }
+
+    .Logo {
+        height: 10%;
+        width: 5%;
+        padding-right: 8%;
+    }
+}
